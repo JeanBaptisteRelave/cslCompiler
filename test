@@ -1,0 +1,18 @@
+algorithme TestPremierProgramme
+debut
+
+/*
+    Ceci est un commentaire
+*/
+
+declarer a : reel;
+
+s <- 7 + 4;
+a <- -26.5;
+b <- 13;
+c <- +10;
+d <- a;
+e <- a * 3;
+f <- 6.3 + 5.1;
+g <- a / b;
+fin
