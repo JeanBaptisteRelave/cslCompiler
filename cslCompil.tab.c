@@ -67,7 +67,7 @@
 
 
 /* First part of user prologue.  */
-#line 1 "cslCompil.y"
+#line 1 ".\\cslCompil.y"
 
 int yyerror(char* s);
 #include "cslCompil.c"
@@ -1071,7 +1071,7 @@ yyreduce:
   switch (yyn)
     {
   case 6: /* Dec: DEC ID DP TYPE PV  */
-#line 11 "cslCompil.y"
+#line 11 ".\\cslCompil.y"
                         {printf("Declaration a la ligne %d\n", yylineno);}
 #line 1077 "cslCompil.tab.c"
     break;
@@ -1271,7 +1271,7 @@ yyreturn:
   return yyresult;
 }
 
-#line 24 "cslCompil.y"
+#line 24 ".\\cslCompil.y"
 
 int yyerror(char* S)
 {

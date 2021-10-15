@@ -6,7 +6,7 @@ int yyerror(char* s);
 %start S
 %%
 S : ALGO ID DEBUT Corps FIN;
-Corps : ListeDec ListeOper | ListeDec | ListeOper;
+Corps : ListeDec ListeOper;
 ListeDec : Dec ListeDec | Dec;
 Dec : DEC ID DP TYPE PV {printf("Declaration a la ligne %d\n", yylineno);};
 ListeOper : Afect ListeOper | Afect;
