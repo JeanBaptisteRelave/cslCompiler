@@ -5,14 +5,14 @@ debut
     Ceci est un commentaire
 */
 
-declarer a : reel;
+declarer az : reel <- 3;
 
 s <- 7 + 4;
-a <- -26.5;
+d <- -26.1;
 b <- 13;
 c <- +10;
-d <- a;
-e <- a * 3;
+d <- az;
+e <- az * 3;
 f <- 6.3 + 5.1;
-g <- a / b;
+g <- az / b;
 fin
